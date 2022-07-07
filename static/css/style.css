@@ -25,12 +25,12 @@ header-bg: #0E1017
 	
 	text-align: center;
 	background-color: #161822;
-	/* background-image: url(./images/logo.png); */
-	/* background-image: url(./images/bg3.jpeg); */
+	/* background-image: url(../static/images/logo.png); */
+	/* background-image: url(../static/images/bg3.jpeg); */
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 25rem;
-	z-index: 99;
+	z-index: 999;
 }
 
 .tags {
@@ -310,7 +310,7 @@ a:hover,a:active {color: #001f3f;}
 	-moz-box-shadow: 9px 10px 39px -2px rgba(0,0,0,0.3);
 	box-shadow: 9px 10px 39px -2px rgba(0,0,0,0.3);
 
-	/* background-image: url(./images/logo.png);
+	/* background-image: url(../static/images/logo.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat; */
@@ -402,7 +402,7 @@ a:hover,a:active {color: #001f3f;}
 .flex_center {justify-content: center;}
 .header_quote {border-radius: 5px; padding: 20px;}
 .header_section {
-	/* background-image: url(./images/bg5.png); */
+	/* background-image: url(../static/images/bg5.png); */
 	background-color: #0E1017;
 	background-position: center;
 	background-size: cover;
