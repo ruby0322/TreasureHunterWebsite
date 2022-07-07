@@ -221,7 +221,11 @@ a:link, a:visited {color: #111111; text-decoration: none;}
 
 a:hover,a:active {color: #001f3f;}
 
-.section {}
+.section {
+	/* min-width: 100vw;
+	min-height: 100vh; */
+}
+
 .section .header_text {z-index: 1;}
 .up_button {
 	position: fixed;
