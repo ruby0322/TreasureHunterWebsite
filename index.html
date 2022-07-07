@@ -1,0 +1,354 @@
+ <!DOCTYPE html>
+<html lang="de-CH">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico|Rubik" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<meta name="Author" content="Ruby Ku">
+	<meta name="Copyright" content="Treasure Hunter 2022">
+	<meta name="keywords" content="台大, 資管, 工海, 物治">
+	<title>寶藏獵人</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Manrope:wght@600&family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Manrope:wght@600;800&family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Noto+Serif+TC&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="loading">
+	<h1 style="
+		margin: 0;
+		font-size: 8rem;
+		user-select: none;
+		margin-top: 40vh;
+		margin-bottom: 0vh;
+		color: #768CB1 !important;
+	">
+	<p id="emo">
+		☠️
+	</p>
+</h1>
+<h1 style="
+		margin-bottom: 1rem;
+		margin-top: 2vh;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 1.2rem;
+		color: #768CB1 !important;
+	">
+		National Taiwan University
+		<br>
+		IM x ESOS x PT
+		<br>
+		B10 x B11
+	</h1>
+</div>
+<a name="top"></a>
+<a href="#top"> <div class="arrow_image">⬆️</div></a>
+<div id="change_class" class="flex_container section menu_section" style="display: none;">
+	<div class="flex_item branding"><p>☠️</p></div>
+	<div class="flex_item menu_item dropdown">
+		<p style="color: #768CB1;">選單</p>
+		<div class="dropdown-content">
+			<div class="menu_item menu_item_inside"><a class="menu-text" href="#top"><p>首頁</p></a></div>
+			<a href=""><div class="menu_item menu_item_inside"><a class="menu-text" href="#location"><p>地點</p></a></div>
+			<a href=""><div class="menu_item menu_item_inside"><a class="menu-text" href="#event"><p>活動</p></a></div>
+			<a href=""><div class="menu_item menu_item_inside"><a class="menu-text" href="#team"><p>團隊</p></a></div>
+		</div>
+	</div>
+	<div class="flex_item menu_item menu_item_outside"><a class="menu-text" href="#top"><p>首頁</p></a></div>
+	<div class="flex_item menu_item menu_item_outside"><a class="menu-text" href="#location"><p>地點</p></a></div></a>
+	<div class="flex_item menu_item menu_item_outside"><a class="menu-text" href="#event"><p>活動</p></a></div></a>
+	<div class="flex_item menu_item menu_item_outside"><a class="menu-text" href="#team"><p>團隊</p></a></div>
+</div>
+
+<div class="section page header_section">
+	<a name="top"></a>
+	<div class="section_container header_section_container flex_container flex_header_container">
+		<div class="text header_text" style="
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+		">
+			<h1 style="
+				font-family: 'Rubik Moonrocks', cursive;
+				margin-bottom: 0;
+				color: white;
+				padding-top: 7rem;
+				user-select: none;
+			">
+				Treasure Hunter
+			</h1>
+			<div style="margin-bottom: 2rem;"> 
+				<p id="cd1" style="
+					display: inline; 
+					position: absolute; 
+					margin-left: -1.3rem; 
+					margin-top: -.07rem;
+					user-select: none;
+				">
+					⏳
+				</p>
+				<span id="timer" style="
+					font-family: 'Quicksand', sans-serif;
+					color: #768CB1;
+					display: inline;
+					user-select: none;
+				">
+				</span>
+			</div>
+			<h1 id="emoji" style="
+				margin: 0;
+				font-size: 8rem;
+				user-select: none;
+			"
+				class="button button-effect"
+			>
+				⚔️
+			</h1>
+			<!-- <div class="like-container" style="margin-bottom: 1rem; font-family: 'Roboto', sans-serif;">
+				<i class="like-btn">⚔️</i>
+			</div> -->
+			<!-- <img src="./images/logo_cropped.png" style="
+				width: 10rem;
+				height: 10rem;
+				"> -->
+			</div>
+			<div class="flex_item">
+				<h2 class="header_quote" style="
+				font-family: 'Roboto', sans-serif;
+				font-size: xx-large;
+				color: #768CB1;
+			">
+				<div class="tags">
+					<a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8", target="_blank">
+						<div class="feature flex_feature_item tag">
+							🇹🇼 NTU
+						</div>
+					</a>
+					<a href="https://management.ntu.edu.tw/IM", target="_blank">
+						<div class="feature flex_feature_item tag">
+							💻 IM
+						</div>
+					</a>
+					<a href="https://homepage.ntu.edu.tw/~ntuesoe/tw/Default.html", target="_blank">
+						<div class="feature flex_feature_item tag">
+							🛥 ESOE
+						</div>
+					</a>
+					<a href="https://www.mc.ntu.edu.tw/ntupt/Index.action", target="_blank">
+						<div class="feature flex_feature_item tag">
+							🩹 PT
+						</div>
+					</a>
+					<div class="feature flex_feature_item tag">
+						# B10 
+					</div>
+					<div class="feature flex_feature_item tag">
+						# B11 
+					</div>
+				</div>
+			</h2>
+		</div>
+	</div>
+</div>
+
+<!-- Location -->
+<div class="section page section-location">
+	<a name="location"></a>
+	<div class="text">
+		<h2 style="
+			color: white;
+			height: 20vh;
+			margin: 0 !important;
+			padding-top: 3rem;
+			font-size: 54px;
+		">
+			📍地點
+		</h2>
+	</div>
+	<div class="loc" style="margin-top: -3rem;">
+		<div>
+			<a href="https://www.facebook.com/sanfufarm" target="_blank">
+				<div class="feature tag" style="max-width: 80vw !important; height: 100% !important; margin-bottom: 0;">
+					<div style="width: 100%; height: 40vh; margin: 0;">
+						<div style="
+							max-width: 75vw; 
+							height: 90%; 
+							border-radius: 10px; 
+							background-size: cover;
+							border-radius: 10px; 
+							background-image: url(./images/farm.webp);
+							background-position: center;
+						"></div>
+					</div>
+					<div style="width: 100%; height: 10.2vh; margin-top: -2rem;">
+						<h2 style="font-size: medium; padding: 5px; text-align: left; color: #768CB1 !important;">
+							名稱：三富休閒農場
+							<br>
+							地址：26944 宜蘭縣冬山鄉中山村新寮二路161巷88號
+						</h2>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div>
+			<div class="center">
+				<div class="mapouter">
+					<div class="gmap_canvas">
+						<iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=%E7%B4%AB%E6%A3%AE%E6%9E%97%E6%97%85%E5%AE%BF-%E4%B8%89%E5%AF%8C%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%2026944%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E6%96%B0%E5%AF%AE%E4%BA%8C%E8%B7%AF161%E5%B7%B788%E8%99%9F&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="
+		width: 100%;
+		margin-top: 1rem;
+	">
+		<div class="tags">
+			<div class="feature flex_feature_item tag">
+				# 休閒農場 🌾
+			</div>
+			<div class="feature flex_feature_item tag">
+				# 景緻怡人 🏕
+			</div>
+			<div class="feature flex_feature_item tag">
+				# 特色餐飲 🍔
+			</div>
+			<div class="feature flex_feature_item tag">
+				# 舒適住宿 🏠
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Events -->
+<div class="section page" style="
+	background-color: #1C202E;
+">
+	<a name="event"></a>
+	<div class="text">
+		<h2 style="
+			color: white;
+			height: 20vh;
+			margin: 0 !important;
+			padding-top: 3rem;
+			font-size: 54px;
+		">
+			🎱活動
+		</h2>
+	</div>
+	<div class="section_container third_section_container flex_container flex_center">
+		<a href="#link6"><div class="feature offer flex_feature_item offer1">
+			<div class="event-image" style="
+				background-image: url('https://p2.bahamut.com.tw/B/2KU/27/06a24d4dd9be9b2dd2fe1b06a615dan5.JPG');
+			"></div>
+			<h2 class="event-title">RPG 劇情</h2>
+			<p class="light-blue-text">
+				一坨沒有意義的文字笑死，哈哈哈哈哈哈。
+			</p>
+		</div></a>
+		<div class="feature offer flex_feature_item offer1">
+			<div class="event-image" style="
+				background-image: url('https://scontent-tpe1-1.xx.fbcdn.net/v/t1.6435-9/67577217_2437728936450476_4537845025119141888_n.png?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=sbbBT8hYNwgAX8s9vQo&_nc_ht=scontent-tpe1-1.xx&oh=00_AT-Fv3MNPE_d6cN-o43HtbtHj9ZXKkEjjy8e0sutbYymQw&oe=62EB34DD');
+			"></div>
+			<h2 class="event-title">水大地</h2>
+			<p class="light-blue-text">
+				一坨沒有意義的文字笑死，哈哈哈哈哈哈。
+			</p>
+		</div>
+		<div class="feature offer flex_feature_item">
+			<div class="event-image" style="
+				background-image: url('http://vignette1.wikia.nocookie.net/rickandmorty/images/e/e6/Look_who\'s_purging_now_HQ.png/revision/latest?cb=20150930233241');
+			"></div>
+			<h2 class="event-title">大逃殺</h2>
+			<p class="light-blue-text">
+				一坨沒有意義的文字笑死，哈哈哈哈哈哈。
+			</p>
+		</div>
+		<div class="feature offer flex_feature_item">
+			<div class="event-image" style="
+				background-image: url('https://sportshub.cbsistatic.com/i/2021/09/07/e377a1f4-25f2-4d10-970c-a5162c8a9a7c/rick-and-morty-how-rick-birdperson-met-explained-season-5-spoile-1278739.jpg');
+			"></div>
+			<h2 class="event-title">晚會</h2>
+			<p class="light-blue-text">
+				一坨沒有意義的文字笑死，哈哈哈哈哈哈。
+			</p>
+		</div>
+		<div class="feature offer flex_feature_item">
+			<div class="event-image" style="
+				background-image: url('https://pica.zhimg.com/50/v2-7c55f61626fb1b135fa32462612ff939_720w.jpg?source=1940ef5c');
+			"></div>
+			<h2 class="event-title">烤肉</h2>
+			<p class="light-blue-text">
+				一坨沒有意義的文字笑死，哈哈哈哈哈哈。
+			</p>
+		</div>
+	</div>
+</div>
+
+
+<div class="section page">	
+	<a name="team"></a>
+	<h2 style="
+		display: block; margin-top: 3rem;
+	">
+		Under Construction
+	</h2>
+	<h1 id="construction" style="
+		font-size: 8rem;
+		user-select: none;
+		display: block;
+	">
+		🚸
+	</h1>
+	<div class="section_container second_section_container flex_container flex_center ch-font">
+		<!-- <div class="text header_text">
+			<h1>
+				團隊成員
+			</h1>
+		</div>
+		<a href="#link1">
+			<div class="feature flex_feature_item feature1">
+				<div class="feature_image"></div>
+				<h2 class="ch-font">你媽</h2>
+			</div>
+		</a>
+		<a href="#link2">
+			<div class="feature flex_feature_item feature2">
+				<div class="feature_image"></div>
+				<h2 class="ch-font">你媽</h2>
+			</div>
+		</a>
+		<a href="#link3">
+			<div class="feature flex_feature_item feature3">
+				<div class="feature_image"></div>
+				<h2 class="ch-font">你媽</h2>
+			</div>
+		</a>
+		<a href="#link4">
+			<div class="feature flex_feature_item feature4">
+				<div class="feature_image"></div>
+				<h2 class="ch-font">你媽</h2>
+			</div>
+		</a> -->
+	</div>
+</div>
+
+<div class="section footer_section">
+	<p class="footer_text">
+		國立臺灣大學 National Taiwan University
+		<br>
+		資訊管理學系 | 工程科學及海洋工程學系 | 物理治療學系
+		<br>
+		Copyright © Treasure Hunter 2022 | Web: 顧寬証
+	</p>
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html> 
