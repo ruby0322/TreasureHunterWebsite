@@ -74,7 +74,7 @@ const rotateEmoji = () => {
 };
 
 $("#emoji").on("click", function() {
-  rotationRate += 1;
+  rotationRate += 3;
 });
 
 $("#emoji").on("webkitAnimationEnd", function() { $(this).removeClass("button-click"); });
