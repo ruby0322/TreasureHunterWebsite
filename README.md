@@ -10,6 +10,10 @@
 
 ![](https://media.discordapp.net/attachments/893439505988743178/995024589283409960/unknown.png?width=1758&height=1001)
 
+### Events
+
+![](https://media.discordapp.net/attachments/893439505988743178/995024909619167262/unknown.png?width=1758&height=1001)
+
 ## Reported Bugs
 
 - 標籤在行動裝置上排版過於冗長
