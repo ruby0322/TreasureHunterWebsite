@@ -45,10 +45,10 @@ $(document).scroll(
   }
 );
 
+const rotationInterval = 10;
 let loadingDeg = 0;
 let emoDeg = 0;
 let clickCnt = 0;
-const rotationInterval = 10;
 let rotationRate = 0;
 
 const changeEmoji = () => {
@@ -101,7 +101,6 @@ $(window).load(
     setInterval(rotateEmoji, rotationInterval);
     setInterval(changeEmoji, 2500);
     setInterval(timer, 1000);
-    openPopup(1);
   }
 );
 
@@ -111,38 +110,18 @@ let count = Math.ceil((target-today) / 1000);
 function timer() {
   count -= 1;
   if (count <= 0) {
-    clearInterval(counter);
+    clearInterval(timer);
     $("#timer").text('Party Time!!!');
     return;
   }
-  let varDay  = Math.floor(count / 86400)
-  let varHour = Math.floor(count / 3600) % 24
-  let varMin = Math.floor(count / 60) % 60
-  let varSec = count % 60
-      
-  console.log(count);
-  let countD = varDay;
-  
-  let countH;
-  if (varHour >= 10) {
-    countH = varHour;
-  } else {
-    countH = '0' + varHour;
-  }
-  let countM;
-  if (varMin >= 10) {
-    countM = varMin;
-  } else {
-    countM = '0' + varMin;
-  }
-  let countS;
-  if (varSec == 60) {
-    countS = '00';
-  }else if(varSec >= 10) {
-    countS = varSec;
-  } else {
-    countS = '0' + varSec;
-  }
+  const day  = Math.floor(count / 86400)
+  const hour = Math.floor(count / 3600) % 24
+  const min = Math.floor(count / 60) % 60
+  const sec = count % 60
 
-  $("#timer").text(`${countD} d ${countH} h ${countM} m ${countS} s`);
+  const d = day;
+  const h = hour >= 10 ? hour : '0' + hour;
+  const m = min >= 10 ? min : '0' + min;
+  const s = sec >= 10 ? sec : '0' + sec;
+  $("#timer").text(`${d} d ${h} h ${m} m ${s} s`);
 }
