@@ -82,6 +82,7 @@ Feel free to contribute!
 Special thanks to the folloing people
 
 - MorrisChen@NTUIM
+- BensonChiu@NTUIM
 - GaryHuang@NTUIM
 - AlexJhan@NCCUCS
 - YeahYu@TKUCSIE
