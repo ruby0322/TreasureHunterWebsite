@@ -76,3 +76,14 @@ Feel free to contribute!
 - 新增三富農場介紹影片 Youtube Embed
 
 > 07/10
+
+## Credits
+
+Special thanks to the folloing people
+
+- MorrisChen@NTUIM
+- GaryHuang@NTUIM
+- AlexJhan@NCCUCS
+- YeahYu@TKUCSIE
+
+for testing, reporting bugs and providing valuable feedback.
