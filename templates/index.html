@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="../static/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico|Rubik" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	<meta name="Author" content="Ruby Ku">
+	<meta name="Author" content="台大資管一 顧寬証 Ruby Ku">
 	<meta name="copyright" content="Treasure Hunter 2022">
 	<meta name="keywords" content="台大, 資管, 工海, 物治">
 	<meta name="description" content="國立臺灣大學 資管 x 工海 x 物治 三系聯合迎新宿營 Treasure Hunter 2022 8/21-8/23">
@@ -110,13 +110,6 @@
 			>
 				⚔️
 			</h1>
-			<!-- <div class="like-container" style="margin-bottom: 1rem; font-family: 'Roboto', sans-serif;">
-				<i class="like-btn">⚔️</i>
-			</div> -->
-			<!-- <img src="./images/logo_cropped.png" style="
-				width: 10rem;
-				height: 10rem;
-				"> -->
 			</div>
 			<div class="flex_item">
 				<h2 class="header_quote" style="
@@ -125,31 +118,133 @@
 				color: #768CB1;
 			">
 				<div class="tags">
-					<a href="https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8", target="_blank">
+					<a style="cursor: pointer;" data-modal-target="#ntu">
 						<div class="feature flex_feature_item tag">
 							🇹🇼 NTU
 						</div>
 					</a>
-					<a href="https://management.ntu.edu.tw/IM", target="_blank">
+					<div class="modal" id="ntu">
+						<div class="modal-header">
+							<div class="title">🇹🇼 NTU</div>
+							<button data-close-button class="close-button">⚔️</button>
+						</div>
+						<div class="modal-body">
+							<div class="center">
+								<div class="pic" style="
+									background-image: url('https://storage.googleapis.com/cw-com-tw/article/201805/article-5aee98be02bb0.jpg');
+									height: 16rem;
+									width: 24rem;
+									margin-bottom: 1rem;
+								"></div>
+							</div>
+							國立台灣大學 National Taiwan University (NTU)
+							<br>
+							期待進入的你未來校園嗎？快來迎新宿營認識未來同學吧！
+						</div>
+					</div>
+
+					
+
+					<a style="cursor: pointer;" data-modal-target="#im">
 						<div class="feature flex_feature_item tag">
 							💻 IM
 						</div>
 					</a>
-					<a href="https://homepage.ntu.edu.tw/~ntuesoe/tw/Default.html", target="_blank">
+					<div class="modal" id="im">
+						<div class="modal-header">
+							<div class="title">💻 IM</div>
+							<button data-close-button class="close-button">⚔️</button>
+						</div>
+						<div class="modal-body">
+							<div class="center">
+								<div class="pic" style="
+									background-image: url('https://scontent-tpe1-1.xx.fbcdn.net/v/t1.6435-9/126115538_2557714727708153_1002905802197455378_n.png?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PUXX0rmTWgYAX-2GJbQ&tn=m0Rhfzvovcyn3iyr&_nc_ht=scontent-tpe1-1.xx&oh=00_AT9h2cPzRjeu2Ppil88xK5JWAbASMkOh1qZN2JpULVl5VA&oe=62EE5C74');
+									height: 16rem;
+									width: 16rem;
+									margin-bottom: 1rem;
+								"></div>
+							</div>
+							資訊管理學系 
+							<br>
+							Information Management (IM)
+						</div>
+					</div>
+
+					<a style="cursor: pointer;" data-modal-target="#esoe">
 						<div class="feature flex_feature_item tag">
 							🛥 ESOE
 						</div>
 					</a>
-					<a href="https://www.mc.ntu.edu.tw/ntupt/Index.action", target="_blank">
+					<div class="modal" id="esoe">
+						<div class="modal-header">
+							<div class="title">🛥 ESOE</div>
+							<button data-close-button class="close-button">⚔️</button>
+						</div>
+						<div class="modal-body">
+							<div class="center">
+								<div class="pic" style="
+									background-image: url('https://scontent-tpe1-1.xx.fbcdn.net/v/t1.6435-9/78537118_111799893640515_2406805093203574784_n.png?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=0CuJ9zybc4EAX96w5Tc&_nc_ht=scontent-tpe1-1.xx&oh=00_AT-ZPy7fFM4LbtLWtnhOXQJwJB_CP4O4Qcz3sRrDms-QaQ&oe=62ED9A75');
+									height: 16rem;
+									width: 16rem;
+									margin-bottom: 1rem;
+								"></div>
+							</div>
+							工程科學及海洋工程學系 
+							<br>
+							Enigeering Science and Ocean Engineering (ESOE)
+						</div>
+					</div>
+
+					<a style="cursor: pointer;" data-modal-target="#pt">
 						<div class="feature flex_feature_item tag">
 							🩹 PT
 						</div>
 					</a>
-					<div class="feature flex_feature_item tag">
-						# B10 
+					<div class="modal" id="pt">
+						<div class="modal-header">
+							<div class="title">🛥 ESOE</div>
+							<button data-close-button class="close-button">⚔️</button>
+						</div>
+						<div class="modal-body">
+							<div class="center">
+								<div class="pic" style="
+									background-image: url('https://scontent-tpe1-1.xx.fbcdn.net/v/t31.18172-8/14305476_498381413698336_2921070162087498128_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=uydEAiepfPAAX-KGLx-&_nc_ht=scontent-tpe1-1.xx&oh=00_AT9BfikA-kmALdRzwAkEXWdAkoX6tat6chL870iPkheU1A&oe=62EE372E');
+									height: 16rem;
+									width: 16rem;
+									margin-bottom: 1rem;
+								"></div>
+							</div>
+							物理治療學系 
+							<br>
+							Physical Therapy (PT)
+						</div>
 					</div>
-					<div class="feature flex_feature_item tag">
-						# B11 
+
+					<a style="cursor: pointer;" data-modal-target="#freshman">
+						<div class="feature flex_feature_item tag">
+							🙈 Freshman
+						</div>
+					</a>
+					<div class="modal" id="freshman">
+						<div class="modal-header">
+							<div class="title">🙈 Freshman</div>
+							<button data-close-button class="close-button">⚔️</button>
+						</div>
+						<div class="modal-body">
+							<div class="center">
+								<div class="pic" style="
+									background-image: url('../static/images/logo2.jpeg');
+									height: 16rem;
+									width: 16rem;
+									margin-bottom: 1rem;
+								"></div>
+							</div>
+							台大資管x工海x物治 三系聯合迎新宿營
+							<br>
+							Treasure Hunter 2022
+							<br>
+							B10 x B11
+						</div>
 					</div>
 				</div>
 			</h2>
@@ -173,7 +268,7 @@
 	</div>
 	<div class="loc" style="margin-top: -3rem;">
 		<div>
-			<a href="https://www.facebook.com/sanfufarm" target="_blank">
+			<a style="cursor: pointer;" data-modal-target="#md5">
 				<div class="feature tag" style="max-width: 80vw !important; height: 100% !important; margin-bottom: 0;">
 					<div style="width: 100%; height: 40vh; margin: 0;">
 						<div style="
@@ -195,6 +290,22 @@
 					</div>
 				</div>
 			</a>
+			<div class="modal" id="md5">
+				<div class="modal-header">
+					<div class="title">三富休閒農場</div>
+					<button data-close-button class="close-button">⚔️</button>
+				</div>
+				<div class="modal-body">
+					<div class="center">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Hs3CjKzOglo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="center">
+						<a class="anchor" href="https://www.facebook.com/sanfufarm" target="_blank">
+							Facebook 粉絲專頁
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div>
 			<div class="center">
@@ -211,17 +322,102 @@
 		margin-top: 1rem;
 	">
 		<div class="tags">
-			<div class="feature flex_feature_item tag">
-				# 休閒農場 🌾
+			<a style="cursor: pointer;" data-modal-target="#md1"><div class="feature flex_feature_item tag">
+				💪 網友力薦 
+			</div></a>
+			<div class="modal" id="md1">
+				<div class="modal-header">
+					<div class="title">💪 網友力薦</div>
+					<button data-close-button class="close-button">⚔️</button>
+				</div>
+				<div class="modal-body">
+					<ul>
+						<li><a target="_blank" class="anchor" href="https://gios.pixnet.net/blog/post/61809501-%E4%B8%89%E5%AF%8C%E8%BE%B2%E5%A0%B4%E7%94%9F%E6%85%8B%E4%B9%8B%E6%97%85(%E4%B8%80)">
+							宜蘭～三富休閒農場
+						</a></li>
+						<li><a target="_blank" class="anchor" href="https://www.taipeinavi.com/hotel/385/">
+							三富農場生態之旅(一)
+						</a></li>
+						<li><a target="_blank" class="anchor" href="http://loco-loca.blogspot.com/2011/06/yilan-travel-ecological-farm-organic.html">
+							三富休閒農場（宜蘭県）
+						</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="feature flex_feature_item tag">
-				# 景緻怡人 🏕
+			
+			<a style="cursor: pointer;" data-modal-target="#md2"><div class="feature flex_feature_item tag">
+				🐱 可愛動物
+			</div></a>
+			<div class="modal" id="md2">
+				<div class="modal-header">
+					<div class="title">🐱 可愛動物</div>
+					<button data-close-button class="close-button">⚔️</button>
+				</div>
+				<div class="modal-body">
+					<div class="center">
+						<div class="pic" style="
+							background-image: url('https://pic.pimg.tw/gios/facb200a793d30335b4afa91e48bab3f.jpg');
+							height: 16rem;
+							width: 24rem;
+							margin-bottom: 1rem;
+						"></div>
+					</div>
+					<div class="center">
+						<a target="_blank" class="anchor" href="https://gios.pixnet.net/blog/post/61834017">更多小動物</a>
+					</div>
+				</div>
 			</div>
-			<div class="feature flex_feature_item tag">
-				# 特色餐飲 🍔
+
+			<a style="cursor: pointer;" data-modal-target="#md3"><div class="feature flex_feature_item tag">
+				🏠 精緻套房
+			</div></a>
+			<div class="modal" id="md3">
+				<div class="modal-header">
+					<div class="title">🏠 精緻套房</div>
+					<button data-close-button class="close-button">⚔️</button>
+				</div>
+				<div class="modal-body">
+					<div class="center">
+						<div class="center">
+							<div class="pic" style="
+								background-image: url('https://www.sanfufarm.com.tw/images/live_pic013.jpg');
+								height: 16rem;
+								width: 24rem;
+								margin-bottom: 1rem;
+							"></div>
+						</div>
+					</div>
+					<div class="center">
+						<a target="_blank" class="anchor" href="https://www.sanfufarm.com.tw/live.html">套房選擇</a>
+					</div>
+				</div>
 			</div>
-			<div class="feature flex_feature_item tag">
-				# 舒適住宿 🏠
+
+			<a style="cursor: pointer;" data-modal-target="#md4"><div class="feature flex_feature_item tag">
+				📔 環境教育
+			</div></a>
+			<div class="modal" id="md4">
+				<div class="modal-header">
+					<div class="title">📔 環境教育</div>
+					<button data-close-button class="close-button">⚔️</button>
+				</div>
+				<div class="modal-body">
+					<div class="center">
+						<div class="center">
+							<div class="pic" style="
+								background-image: url('https://hulong.tw/wp-content/uploads/d7426353d5a2a95b42bc94e5896560c9.jpg');
+								height: 16rem;
+								width: 24rem;
+								margin-bottom: 1rem;
+							"></div>
+						</div>
+					</div>
+					<div class="center">
+						<a class="anchor" target="_blank" href="https://hulong.tw/2017-08-30-329/">
+							自然生態農場的冒險教育新玩法
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -244,7 +440,7 @@
 		</h2>
 	</div>
 	<div class="section_container third_section_container flex_container flex_center">
-		<a href="#link6"><div class="feature offer flex_feature_item offer1">
+		<a data-modal-target="#modal1"><div class="feature offer flex_feature_item">
 			<div class="event-image" style="
 				background-image: url('https://p2.bahamut.com.tw/B/2KU/27/06a24d4dd9be9b2dd2fe1b06a615dan5.JPG');
 			"></div>
@@ -253,7 +449,18 @@
 				一坨沒有意義的文字笑死，哈哈哈哈哈哈。
 			</p>
 		</div></a>
-		<div class="feature offer flex_feature_item offer1">
+		<div class="modal" id="modal1">
+			<div class="modal-header">
+				<div class="title">🦄 RPG 劇情</div>
+				<button data-close-button class="close-button">⚔️</button>
+			</div>
+			<div class="modal-body">
+				因為我還不知道任何一點劇情，所以我寫一堆沒有屁用的字，假裝我做了很多事情。
+			</div>
+		</div>
+		
+		
+		<a data-modal-target="#modal2"><div class="feature offer flex_feature_item">
 			<div class="event-image" style="
 				background-image: url('https://scontent-tpe1-1.xx.fbcdn.net/v/t1.6435-9/67577217_2437728936450476_4537845025119141888_n.png?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=sbbBT8hYNwgAX8s9vQo&_nc_ht=scontent-tpe1-1.xx&oh=00_AT-Fv3MNPE_d6cN-o43HtbtHj9ZXKkEjjy8e0sutbYymQw&oe=62EB34DD');
 			"></div>
@@ -261,8 +468,18 @@
 			<p class="light-blue-text">
 				一坨沒有意義的文字笑死，哈哈哈哈哈哈。
 			</p>
+		</div></a>
+		<div class="modal" id="modal2">
+			<div class="modal-header">
+				<div class="title">💦 水大地</div>
+				<button data-close-button class="close-button">⚔️</button>
+			</div>
+			<div class="modal-body">
+				因為我還不知道什麼是水大地，所以我寫一堆沒有屁用的字，假裝我做了很多事情。
+			</div>
 		</div>
-		<div class="feature offer flex_feature_item">
+
+		<a data-modal-target="#modal3"><div class="feature offer flex_feature_item">
 			<div class="event-image" style="
 				background-image: url('http://vignette1.wikia.nocookie.net/rickandmorty/images/e/e6/Look_who\'s_purging_now_HQ.png/revision/latest?cb=20150930233241');
 			"></div>
@@ -270,8 +487,18 @@
 			<p class="light-blue-text">
 				一坨沒有意義的文字笑死，哈哈哈哈哈哈。
 			</p>
+		</div></a>
+		<div class="modal" id="modal3">
+			<div class="modal-header">
+				<div class="title">🔪 大逃殺</div>
+				<button data-close-button class="close-button">⚔️</button>
+			</div>
+			<div class="modal-body">
+				因為我還不知道什麼是大逃殺，所以我寫一堆沒有屁用的字，假裝我做了很多事情。
+			</div>
 		</div>
-		<div class="feature offer flex_feature_item">
+
+		<a data-modal-target="#modal4"><div class="feature offer flex_feature_item">
 			<div class="event-image" style="
 				background-image: url('https://sportshub.cbsistatic.com/i/2021/09/07/e377a1f4-25f2-4d10-970c-a5162c8a9a7c/rick-and-morty-how-rick-birdperson-met-explained-season-5-spoile-1278739.jpg');
 			"></div>
@@ -279,8 +506,18 @@
 			<p class="light-blue-text">
 				一坨沒有意義的文字笑死，哈哈哈哈哈哈。
 			</p>
+		</div></a>
+		<div class="modal" id="modal4">
+			<div class="modal-header">
+				<div class="title">🪩 晚會</div>
+				<button data-close-button class="close-button">⚔️</button>
+			</div>
+			<div class="modal-body">
+				因為我還不知道什麼是晚會，所以我寫一堆沒有屁用的字，假裝我做了很多事情。
+			</div>
 		</div>
-		<div class="feature offer flex_feature_item">
+
+		<a data-modal-target="#modal5"><div class="feature offer flex_feature_item">
 			<div class="event-image" style="
 				background-image: url('https://pica.zhimg.com/50/v2-7c55f61626fb1b135fa32462612ff939_720w.jpg?source=1940ef5c');
 			"></div>
@@ -288,6 +525,15 @@
 			<p class="light-blue-text">
 				一坨沒有意義的文字笑死，哈哈哈哈哈哈。
 			</p>
+		</div></a>
+		<div class="modal" id="modal5">
+			<div class="modal-header">
+				<div class="title">🍢 烤肉</div>
+				<button data-close-button class="close-button">⚔️</button>
+			</div>
+			<div class="modal-body">
+				因為我還不知道什麼是烤肉，所以我寫一堆沒有屁用的字，假裝我做了很多事情。
+			</div>
 		</div>
 	</div>
 </div>
@@ -295,9 +541,7 @@
 
 <div class="section page">	
 	<a name="team"></a>
-	<h2 style="
-		display: block; margin-top: 3rem;
-	">
+	<h2 style="display: block; margin-top: 3rem;">
 		Under Construction
 	</h2>
 	<h1 id="construction" style="
@@ -307,30 +551,13 @@
 	">
 		🚸
 	</h1>
+	<div id="overlay"></div>
 	<div class="section_container second_section_container flex_container flex_center ch-font">
-		<!-- <div class="text header_text">
+	<!-- <div class="text header_text">
 			<h1>
 				團隊成員
 			</h1>
 		</div>
-		<a href="#link1">
-			<div class="feature flex_feature_item feature1">
-				<div class="feature_image"></div>
-				<h2 class="ch-font">你媽</h2>
-			</div>
-		</a>
-		<a href="#link2">
-			<div class="feature flex_feature_item feature2">
-				<div class="feature_image"></div>
-				<h2 class="ch-font">你媽</h2>
-			</div>
-		</a>
-		<a href="#link3">
-			<div class="feature flex_feature_item feature3">
-				<div class="feature_image"></div>
-				<h2 class="ch-font">你媽</h2>
-			</div>
-		</a>
 		<a href="#link4">
 			<div class="feature flex_feature_item feature4">
 				<div class="feature_image"></div>
